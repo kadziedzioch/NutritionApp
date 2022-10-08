@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">NutritionApp</string>
+    <string name="breakfast_text">Breakfast</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="foodHint">Enter name</string>
+    <string name="noDataInfo">No results</string>
+    <string name="noKcalInfo">0 kcal</string>
+    <string name="energeticValueString">Energetic value (kcal)</string>
+    <string name="proteinValue">Protein (g)</string>
+    <string name="fatsValueString">Fats (g)</string>
+    <string name="carboValueString">Carbohydrates (g)</string>
+</resources>

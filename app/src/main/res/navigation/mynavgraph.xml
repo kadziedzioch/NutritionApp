@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mynavgraph"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.example.nutritionapp.MainFragment"
+        android:label="fragment_main"
+        tools:layout="@layout/fragment_main" >
+        <action
+            android:id="@+id/action_mainFragment_to_searchFoodFragment22"
+            app:destination="@id/searchFoodFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/searchFoodFragment2"
+        android:name="com.example.nutritionapp.SearchFoodFragment"
+        android:label="fragment_search_food"
+        tools:layout="@layout/fragment_search_food" >
+        <action
+            android:id="@+id/action_searchFoodFragment2_to_addFoodFragment2"
+            app:destination="@id/addFoodFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/addFoodFragment2"
+        android:name="com.example.nutritionapp.AddFoodFragment"
+        android:label="AddFoodFragment" >
+        <action
+            android:id="@+id/action_addFoodFragment2_to_mainFragment"
+            app:destination="@id/mainFragment"
+            app:popUpTo="@+id/searchFoodFragment2"
+            app:popUpToInclusive="true"/>
+    </fragment>
+</navigation>
