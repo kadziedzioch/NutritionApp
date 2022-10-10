@@ -11,3 +11,5 @@ Nutrition App is an Android app for people who want to manage their calorie inta
 It allows to save food you have eaten on a particular day. The app counts not only the calories but also fats, protein and carbohydrates. 
 
 The app was built using MVVM architecture, Room, Retrofit and Nutritionix API. 
+
+The app design was inspired by Fitatu. 
